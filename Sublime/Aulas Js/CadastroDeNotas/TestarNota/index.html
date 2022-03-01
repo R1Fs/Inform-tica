@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<script src="script.js"></script>
+<title>Exercícios</title>
+</head>
+<body>
+<header>
+<h1>Teste sua nota:</h1>
+<p>Média >= 7 : Aprovado</p>
+<p>Média < 7 e >= 5: Recuperação</p>
+<p>Média <5 : Reprovado</p>
+</header>
+
+<form action="">
+<table>
+<tr>
+<td><label>Nome:</label></td>
+<td><input type="text" id="nome" name="nome"></td>
+</tr>
+<tr>
+<td><label>Prova 01:</label></td>
+<td><input type="text" id="prova01"></td>
+</tr>
+<tr>
+<td><label>Prova 02:</label></td>
+<td><input type="text" id="prova02"></td>
+</tr>
+<tr>
+<td><label>Média :</label></td>
+<td><input type="text" id="media" readonly></td>
+</tr>
+<tr>
+<td><label>Situação :</label></td>
+<td><input type="text" id="situacao" readonly></td>
+</tr>
+<tr>
+<td><button onclick="calcular(this)">Calcular</button></td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>

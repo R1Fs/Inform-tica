@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aula 05 - JS</title>
+    <script type="text/javascript">
+        function calcular() {
+            var numero = parseInt(document.getElementById("numero").value);
+            for (var i = 0; i <= 10; i++) {
+                var resultado = numero * i;
+                document.write(numero + " X " + i + " = " + resultado + "<br>");
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Tabuada de Multiplicar</h1>
+    <form>
+        <label>Escolha um número:</label>
+        <input type="text" id="numero">
+        <button type="submit" onclick="calcular()">Calcular</button>
+    </form>
+</body>
+</html>

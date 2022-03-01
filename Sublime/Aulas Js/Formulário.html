@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aula 05 - JS</title>
+    <script type="text/javascript">
+        function testar() {
+            var nome = document.getElementById("nome").value;
+            var idade = document.getElementById("idade").value;
+            document.write("Meu nome é "+nome+" e tenho "+idade+" anos.");
+            if (idade >= 18) {
+                document.write("é maior de idade");
+            }else{
+                document.write("é menor de idade");
+            }
+        }
+        function mensagem() {
+            alert("Testado com sucesso!!!");
+        }
+    </script>
+</head>
+<body>
+    <h1>Objeto DOM</h1>
+    <h2>DOM = Document Object Model = Modelo de documento do Objeto</h2>
+    <form method="post">
+        <p>
+            <label>Digite aqui seu nome:</label>
+            <input type="text" id="nome">
+        </p>
+        <p>
+            <label>Digite sua idade:</label>
+            <input type="number" id="idade">
+        </p>
+        <button type="submit" onclick="testar(),mensagem()">Testar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>

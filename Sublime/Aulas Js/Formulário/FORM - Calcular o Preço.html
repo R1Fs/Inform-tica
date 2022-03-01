@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aula 01 4º BIM</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calcule o Preço</h1>
+    <form action="" method="POST">
+            <table>
+            <tr>
+                <td><label>Produto</label></td>
+                <td><input type="text" name="produto" id="produto"></td>
+            </tr>
+            <tr>
+                <td><label>Preço</label></td>
+                <td><input type="text" name="preco" id="preco"></td>
+            </tr>
+            <tr>
+                <td><label>Quantidade</label></td>
+                <td><input type="number" name="quantidade" id="quantidade"
+                    onblur="calcularPreco()"></td>
+            </tr>
+            <tr>
+                <td><label>Preço Total</label></td>
+                <td><input type="text" name="total" id="total" readonly></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastrodenotas</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>Cadastro de Notas</h1>
+	<div id="formulario">
+	<form action=""method="post">
+    <label>Nome</label>
+    <input type="text"name="nome"id="nome">
+    <br><br>
+    <label>Prova01</label>
+    <input type="text"name="prova01"id="prova01">
+    <br><br>
+    <label>Prova02</label>
+    <input type="text"name="prova02"onblur="calcularNotas()">
+    <br><br>
+    <label>Média</label>
+    <input type="text" name="media" id="media">
+    <br><br>
+    <label>Situação</label>
+    <input type="text" name="situacao" id="situacao">
+    <br><br>
+    <button type="reset">Limpar</button>
+    </form>
+    </div>
+
+</body>
+</html>

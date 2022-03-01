@@ -1,0 +1,23 @@
+body{
+    background-color: #A9A9A9;
+    /*background-image: url(img/arvores.jpg);*/
+}
+table,td,tr{
+    border: 1px solid #D3D3D3;
+    margin: auto;
+    background-color: #FF8C00;
+}
+input{
+    background-color: #C0C0C0;
+    color: #FF0000;
+}
+label{
+    color: #FFFFFF;
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    color: #363636;
+    font-family: Arial;
+    background-color: #DCDCDC;
+}

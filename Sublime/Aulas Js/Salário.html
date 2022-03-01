@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AUla 06 - JS</title>
+<script type="text/javascript">
+function calcularSalario() {
+var nome = document.getElementById('nome').value;
+var salario = parseFloat(document.getElementById('salario').value);
+var inss = salario * 0.11;
+var salFinal = salario - inss;
+document.getElementById('inss').value = inss;
+document.getElementById('salFinal').value = salFinal;
+
+
+}
+</script>
+</head>
+<body>
+<h2>Calcule seu salário</h2>
+<form>
+<p>
+<label>Nome:</label>
+<input type="text" id="nome">
+</p>
+<p>
+<label>Salário:</label>
+<input type="text" id="salario" onblur="calcularSalario()">
+</p>
+<p>
+<label>INSS:</label>
+<input type="text" id="inss" readonly>
+</p>
+<p>
+<label>Salário Final:</label>
+<input type="text" id="salFinal" readonly>
+</p>
+<p>
+<button type="reset">Limpar</button>
+</p>
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aula 01 - 4º BIM</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Cálculo de desconto</h1>
+
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>Valor do Produto</td>
+                <td><input type="text" name="valor" id="valor"></td>
+            </tr>
+            <tr>
+                <td>Valor do Desconto</td>
+                <td><input type="text" name="desconto" id="desconto"
+                    onblur="calcularDesconto()">%</td>
+            </tr>
+            <tr>
+                <td>Valor com Desconto</td>
+                <td><input type="text" name="total" readonly id="total"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

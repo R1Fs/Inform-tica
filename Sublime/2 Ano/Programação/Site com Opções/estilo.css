@@ -7,15 +7,31 @@ header{
 h1 {
 
 	text-align: center;
-	color: white;
+	font-style: italic;
+	font-size: 70px;
+	color: black;
 
 }
+
+
+
+hr {
+
+   width: 100%;
+   height: 5px;
+   border: 0px;
+   border-top: 1px solid black;
+   background-color: black;
+
+}
+
+
 
 div {
 
 	width: 100%;
 	height: 300px;
-	color: white;
+	color: black;
 }
 
 nav {
@@ -40,11 +56,11 @@ li {
 
 nav li a {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 body {
-	background-color:  black;
+	background-color:  white;
 }
 
 nav li a:hover{
